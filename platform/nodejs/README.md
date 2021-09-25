@@ -34,13 +34,6 @@ engine ("SNFE"), which proxy API must be imported as follow:
 import { StaticNetFilteringEngine } from '@gorhill/ubo-core';
 ```
 
-If you must import as a NodeJS module:
-
-```js
-const { StaticNetFilteringEngine } = require('@gorhill/ubo-core');
-```
-
-
 Create an instance of SNFE:
 
 ```js
